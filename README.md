@@ -73,8 +73,8 @@ Progress from Recruit to Capture Legend as XP accumulates.
 
 ```bash
 # Clone the repo
-git clone https://github.com/khaaliswooden-max/fsled_academy.git
-cd fsled_academy
+git clone https://github.com/khaaliswooden-max/fed_sled_academy.git
+cd fed_sled_academy
 
 # Install dependencies
 npm install
@@ -94,29 +94,29 @@ npm run preview
 
 ## Project Structure
 
+The application currently ships as a single self-contained React component. Courses, ranks, mission content, and quiz logic all live in `FSLED_Academy.jsx`. A modular refactor (splitting screens, course data, and progress hooks into `src/`) is tracked on the [roadmap](./ROADMAP.md).
+
 ```
-fsled_academy/
-├── src/
-│   ├── components/
-│   │   ├── HomeScreen.jsx
-│   │   ├── CourseScreen.jsx
-│   │   ├── MissionScreen.jsx
-│   │   └── QuizScreen.jsx
-│   ├── data/
-│   │   ├── courses.js        # All course content
-│   │   └── ranks.js          # Rank definitions
-│   ├── hooks/
-│   │   └── useProgress.js    # XP & completion state
-│   ├── App.jsx
-│   └── main.jsx
-├── public/
-├── docs/
-│   └── curriculum/           # Extended course documentation
+fed_sled_academy/
+├── FSLED_Academy.jsx        # Entire app — screens, course content, ranks, quiz logic
+├── main.jsx                 # React entry point (mounts <App />)
+├── index.html               # HTML shell + Google Fonts loading
+├── index.css                # Global styles and CSS variables
+├── vite.config.js           # Vite + @vitejs/plugin-react config
+├── package.json             # Scripts and dependencies
+├── .github/
+│   ├── ISSUE_TEMPLATE/       # Bug, content-error, and feature-request templates
+│   │   └── config.yml
+│   └── PULL_REQUEST_TEMPLATE.md
+├── README.md
 ├── CONTRIBUTING.md
-├── CHANGELOG.md
 ├── CODE_OF_CONDUCT.md
 ├── SECURITY.md
-└── README.md
+├── SUPPORT.md
+├── CHANGELOG.md
+├── ROADMAP.md
+├── AUTHORS.md
+└── LICENSE
 ```
 
 ---
@@ -137,7 +137,9 @@ Near-term priorities:
 
 ## Contributing
 
-We welcome contributions — new questions, course corrections, additional scenarios, and feature improvements. See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+We welcome contributions — new questions, course corrections, additional scenarios, and feature improvements. See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines, and [SUPPORT.md](./SUPPORT.md) if you need help or want to ask a question.
+
+This project adheres to a [Code of Conduct](./CODE_OF_CONDUCT.md). By participating, you agree to uphold it.
 
 ---
 

@@ -88,4 +88,4 @@ FSLED Academy becomes the standard onboarding and continuous learning system for
 
 ## Contributing to the Roadmap
 
-Have a feature request or want to work on something on this list? Open a [GitHub Discussion](https://github.com/khaaliswooden-max/fsled_academy/discussions) or comment on the relevant [Issue](https://github.com/khaaliswooden-max/fsled_academy/issues). We build what practitioners actually need.
+Have a feature request or want to work on something on this list? Open a [GitHub Discussion](https://github.com/khaaliswooden-max/fed_sled_academy/discussions) or comment on the relevant [Issue](https://github.com/khaaliswooden-max/fed_sled_academy/issues). We build what practitioners actually need.

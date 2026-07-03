@@ -61,5 +61,5 @@ Versioning follows [Semantic Versioning](https://semver.org/).
 
 ---
 
-[Unreleased]: https://github.com/khaaliswooden-max/fsled_academy/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/khaaliswooden-max/fsled_academy/releases/tag/v1.0.0
+[Unreleased]: https://github.com/khaaliswooden-max/fed_sled_academy/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/khaaliswooden-max/fed_sled_academy/releases/tag/v1.0.0
