@@ -49,8 +49,8 @@ This project follows the [Contributor Covenant Code of Conduct](./CODE_OF_CONDUC
 
 ```bash
 # Fork the repo on GitHub, then clone your fork
-git clone https://github.com/<your-username>/fsled_academy.git
-cd fsled_academy
+git clone https://github.com/<your-username>/fed_sled_academy.git
+cd fed_sled_academy
 
 # Install dependencies
 npm install
@@ -125,8 +125,8 @@ Requirements:
 ## Pull Request Process
 
 1. **Open an issue first** for significant changes — discuss before building
-2. Ensure all existing tests pass: `npm test`
-3. Add tests for new functionality where applicable
+2. Ensure the linter passes: `npm run lint`
+3. Add tests for new functionality where applicable (a formal test harness is on the [roadmap](./ROADMAP.md) — until then, verify changes manually against the PR template checklist)
 4. Update relevant documentation
 5. Fill out the PR template completely
 6. Request review from at least one maintainer
@@ -163,4 +163,4 @@ Use GitHub Issues with the appropriate label:
 
 ## Questions?
 
-Open a [GitHub Discussion](https://github.com/khaaliswooden-max/fsled_academy/discussions) for anything that doesn't fit an issue. We're building this together.
+Open a [GitHub Discussion](https://github.com/khaaliswooden-max/fed_sled_academy/discussions) for anything that doesn't fit an issue. We're building this together.
